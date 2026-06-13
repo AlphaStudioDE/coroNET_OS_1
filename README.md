@@ -150,6 +150,21 @@ Examples include:
 
 The firmware is intended for the coroNET OS 1 controller hardware and related prototype/product builds.
 
+### Hardware / BOM Overview
+
+A typical coroNET OS 1 build includes:
+
+- ESP32-S3 touchscreen controller
+- 60 RGBW SK6812 LEDs
+- SD card for sound assets and activation files
+- I2S audio amplifier and speaker
+- PWM-controlled fan
+- servo-driven ventilation flap
+- chamber temperature data from printer telemetry
+- custom enclosure, wiring, connectors, and power distribution
+
+For a detailed and revision-specific bill of materials, see [BOM.md](BOM.md).
+
 Current LED layout:
 
 - `0..10` right outer section
