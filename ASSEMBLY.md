@@ -42,7 +42,7 @@ Diagram color legend:
 - red solid lines: `5V`
 - white dashed lines: `GND` / common ground
 - green line: LED data
-- blue line: audio / speaker output
+- blue line: audio / speaker output in the diagram
 - yellow line: fan PWM/control
 - brown line: flap servo signal
 - default lines: signal or data
@@ -141,8 +141,8 @@ The audio output is already built into the ESP32-S3 display board used by this p
 
 | Speaker wire | Connect to | Wire color |
 | --- | --- | --- |
-| Speaker `+` | Board speaker output `+` | Blue |
-| Speaker `-` | Board speaker output `-` | Blue/white or white |
+| Speaker `+` | Board speaker output `+` | Red speaker wire |
+| Speaker `-` | Board speaker output `-` | Black speaker wire |
 
 Do not connect the speaker directly to ESP32-S3 GPIO pins. Use the board speaker connector/output pads.
 
@@ -264,7 +264,7 @@ After boot:
 | Module | Power | Ground | Signal pins |
 | --- | --- | --- | --- |
 | SK6812 LEDs | 5 V distribution | Common GND | `GPIO15` LED data, green wire |
-| Speaker | Board speaker output | Board speaker output | Blue audio wire, no direct GPIO connection |
+| Speaker | Board speaker output | Board speaker output | Red speaker wire to `+`, black speaker wire to `-`; no direct GPIO connection |
 | Servo | 5 V distribution | Common GND | `GPIO9`, brown signal wire |
 | Fan / fan driver | Fan-rated supply | Common GND | `GPIO14` PWM/control, yellow wire |
 | Optional heater driver | External driver supply | Common GND | `GPIO46` active HIGH |
