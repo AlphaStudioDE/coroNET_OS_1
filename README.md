@@ -11,7 +11,7 @@ The project has now moved out of beta. Development continues, but the system is 
 
 > Current firmware: **1.6.0**
 
-**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Flashing guide](FLASHING.md) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
 
 ---
 
@@ -28,6 +28,28 @@ You also need Espressif Flash Download Tool:
 [Download official Espressif Flash Download Tools](https://www.espressif.com/en/tools-type/flash-download-tools)
 
 Then follow the [flashing guide](FLASHING.md).
+
+---
+
+## Activation
+
+coroNET OS 1 firmware requires a device-specific activation key.
+
+On first startup, the device shows its serial number on the activation screen. To receive an activation key, support the project with a **20 EUR** PayPal contribution:
+
+```text
+PayPal: damianborkowski88@gmail.com
+Payment note: your displayed device serial number
+```
+
+The activation file or activation code will be sent to the email address connected to the PayPal payment.
+
+Activation can be completed in either of these ways:
+
+- copy the received activation file, usually `license.txt`, to the root folder of the SD card, insert the SD card into the ESP32-S3 device, and restart the device
+- manually enter the received activation code on the activation screen
+
+The activation key is generated for the displayed device serial number. Do not use a serial number from a different device.
 
 ---
 
@@ -213,7 +235,7 @@ The SD card can be used for sound assets and activation files.
 Common root-level files:
 
 - `boot.wav` - optional startup audio played during the boot animation
-- `license.txt` - activation/license file when required by the build
+- `license.txt` - activation/license file copied to the SD root folder when automatic activation is used
 
 Sound scenario files are selected through the device UI.
 
