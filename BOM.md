@@ -14,7 +14,7 @@ The exact part numbers may change between prototype, pre-production, and product
 | --- | ---: | --- |
 | JC3248W535 ESP32-S3 touchscreen controller | 1 | Main UI, WiFi, firmware, LED/audio/control logic |
 | Touch display assembly | 1 | Integrated with the JC3248W535 controller |
-| microSD card | 1 | Stores sound files such as `boot.wav` and optional `license.txt` |
+| microSD card, 500 MB to 2 GB | 1 | A 500 MB card should be included with the ESP32-S3 display kit. If it is missing, buy a 500 MB to 2 GB card; larger cards may cause read issues on some ESP32-S3 setups. Stores sound files such as `boot.wav` and optional `license.txt` |
 | microSD interface | 1 | Built into controller board or external module, depending on hardware revision |
 
 ---
@@ -50,6 +50,10 @@ Mirror LED mode can be enabled in firmware for units wired in the previous direc
 Recommended SD root file:
 
 - `boot.wav` - startup audio for the boot animation
+
+SD card note:
+
+- Use the included 500 MB microSD card where possible. If the kit does not include one, use a 500 MB to 2 GB card. Avoid larger cards unless they have been tested with the target ESP32-S3 board.
 
 ---
 
