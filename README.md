@@ -61,6 +61,10 @@ The printable mechanical parts and print settings are provided as:
 
 Use this file as the base print project for the enclosure and related printed parts.
 
+Optional community mod:
+
+[Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure) by **@wlodeka** on Discord.
+
 ---
 
 ## What It Does
@@ -212,6 +216,8 @@ A typical coroNET OS 1 build includes:
 - custom enclosure, wiring, connectors, and power distribution
 
 Printable enclosure parts and print settings are available in [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
+
+An optional magnetic enclosure mod is available here: [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure), shared by **@wlodeka** on Discord.
 
 For a detailed and revision-specific bill of materials, see [BOM.md](BOM.md).
 

@@ -221,7 +221,7 @@ Implementation note: older UI text may mention `GPIO18`; verify the final firmwa
 
 ## Mechanical Assembly Order
 
-1. Print the mechanical parts from [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
+1. Print the mechanical parts from [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf), or use the optional [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure) mod by **@wlodeka** on Discord.
 2. Test-fit the ESP32-S3 display, speaker, fan, flap, and LED diffuser before soldering final wire lengths.
 3. Mount threaded inserts, spacers, or screws as required by the printed parts.
 4. Install the LED strip and verify its physical direction.

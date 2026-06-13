@@ -127,6 +127,8 @@ Power notes:
 
 Printable mechanical parts and print settings are provided in [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
 
+Optional community enclosure mod: [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure), shared by **@wlodeka** on Discord.
+
 ---
 
 ## Wiring And Connectors
