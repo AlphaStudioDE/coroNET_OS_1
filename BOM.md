@@ -58,7 +58,7 @@ Recommended SD root file:
 | Item | Qty | Notes |
 | --- | ---: | --- |
 | PWM fan | 1 | Controlled by firmware fan PWM output |
-| Servo | 1 | Drives the ventilation flap |
+| Servo | 1 | Drives the ventilation flap; exact model depends on the mechanical revision |
 | Ventilation flap mechanism | 1 | Mechanical assembly controlled by the servo |
 | Fan duct / airflow path | 1 | Depends on enclosure design |
 
@@ -172,6 +172,7 @@ Prices below are a snapshot for one unit of each listed line item and may change
 | Controller/display | JC3248W535 | 1 | 21.99 EUR | [AliExpress item 1005007566315926](https://de.aliexpress.com/item/1005007566315926.html) |
 | LEDs | SK6812 RGBNW, 1 m / 60 LEDs / IP20 | 1 | 5.29 EUR | [AliExpress item 1005005824057524](https://de.aliexpress.com/item/1005005824057524.html) |
 | Speaker | 4 ohm / 3 W / 1.25 mm connector | 1 | 1.69 EUR | [AliExpress item 1005008267900755](https://de.aliexpress.com/item/1005008267900755.html) |
+| Servo | Micro servo for ventilation flap control | 1 | 1.95 EUR | [AliExpress item 1005008315780030](https://de.aliexpress.com/item/1005008315780030.html) |
 | Wire | 24 AWG to 28 AWG wire set | 1 set | 8.99 EUR | [AliExpress item 1005007670937847](https://de.aliexpress.com/item/1005007670937847.html) |
 | Power filtering | 1000 uF / 10 V capacitor | 1+ | 2.55 EUR | [AliExpress item 1005002075527957](https://de.aliexpress.com/item/1005002075527957.html) |
 | Optional protection | 10 A fuse / inline protection component | 1 | 2.05 EUR | [AliExpress item 1005009895179310](https://de.aliexpress.com/item/1005009895179310.html) |
@@ -180,9 +181,9 @@ Prices below are a snapshot for one unit of each listed line item and may change
 | FFC/FPC cable | 8P, same direction, 15-20 cm | 1 | 4.79 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 | FFC/FPC cable | 4P, same direction, 20-30 cm | 1 | 4.19 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 
-Estimated sourced-parts subtotal: 75.50 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
+Estimated sourced-parts subtotal: 77.45 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
 
-Estimated subtotal without the optional 10 A fuse/protection component: 73.45 EUR.
+Estimated subtotal without the optional 10 A fuse/protection component: 75.40 EUR.
 
 Some items in this table, especially screws, wire, connectors, and generic small electronics, may already be available in a builder's workshop. In that case, the real build cost can be lower than the listed sourced-parts subtotal.
 
@@ -204,7 +205,7 @@ Before publishing a final public BOM, fill in:
 
 - exact audio amplifier model
 - exact fan model, voltage, and current
-- exact servo model and torque
+- final servo torque and mechanical throw under load
 - final 10 A fuse holder, wiring path, and enclosure mounting method
 - final connector types
 - final wire gauges per current path
