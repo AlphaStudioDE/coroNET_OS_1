@@ -11,7 +11,33 @@ The project has now moved out of beta. Development continues, but the system is 
 
 > Current firmware: **1.6.0**
 
-**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Flashing guide](FLASHING.md) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+
+---
+
+## First-Time Installation
+
+For a new device or a full recovery flash, download:
+
+[Files to flash.zip](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip)
+
+This package contains the base wired-flash files for coroNET OS 1 `1.6.0`. After the base firmware is installed, future updates are handled through the built-in OTA updater.
+
+You also need Espressif Flash Download Tool:
+
+[Download official Espressif Flash Download Tools](https://www.espressif.com/en/tools-type/flash-download-tools)
+
+Then follow the [flashing guide](FLASHING.md).
+
+---
+
+## Printable Parts
+
+The printable mechanical parts and print settings are provided as:
+
+[coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf)
+
+Use this file as the base print project for the enclosure and related printed parts.
 
 ---
 
@@ -163,6 +189,8 @@ A typical coroNET OS 1 build includes:
 - chamber temperature data from printer telemetry
 - custom enclosure, wiring, connectors, and power distribution
 
+Printable enclosure parts and print settings are available in [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
+
 For a detailed and revision-specific bill of materials, see [BOM.md](BOM.md).
 
 Current LED layout:
@@ -198,6 +226,12 @@ Firmware binaries are published through GitHub Releases:
 [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest)
 
 The device OTA updater reads the release manifest and firmware binary from the release assets.
+
+For first-time installation or recovery flashing with Espressif Flash Download Tool, see [FLASHING.md](FLASHING.md).
+
+Base wired-flash package:
+
+[Files to flash.zip](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip)
 
 ---
 

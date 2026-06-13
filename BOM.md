@@ -115,13 +115,15 @@ Power notes:
 
 | Item | Qty | Notes |
 | --- | ---: | --- |
-| coroNET OS 1 enclosure | 1 | Custom housing for display, LEDs, audio, and ventilation |
+| coroNET OS 1 enclosure | 1 | Printable housing for display, LEDs, audio, and ventilation; use [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) |
 | LED diffuser / light guide | 1 set | Required for polished visual output |
 | M2.5 screw / spacer / insert kit | 1 set | 631-piece kit used for display/enclosure assembly |
 | Display mounting hardware | 1 set | Screws, brackets, inserts, or adhesive system |
 | Speaker mounting hardware | 1 set | Depends on enclosure design |
 | Fan and flap mounting hardware | 1 set | Depends on ventilation design |
 | Cable management parts | 1 set | Strain relief, clips, sleeves, or channels |
+
+Printable mechanical parts and print settings are provided in [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
 
 ---
 
