@@ -11,11 +11,15 @@ The project has now moved out of beta. Development continues, but the system is 
 
 > Current firmware: **1.6.0**
 
-**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Assembly guide](ASSEMBLY.md) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+**Quick links:** [Getting started](GETTING_STARTED.md) | [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Assembly guide](ASSEMBLY.md) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
 
 ---
 
 ## First-Time Installation
+
+Start here:
+
+[Getting started with coroNET OS 1](GETTING_STARTED.md)
 
 For a new device or a full recovery flash, download:
 
