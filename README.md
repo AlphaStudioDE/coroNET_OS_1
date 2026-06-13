@@ -299,6 +299,12 @@ coroNET OS 1 can control LEDs, audio, fans, servo movement, ventilation behavior
 
 ---
 
+## Credits
+
+Special thanks to **@wlodeka** on Discord for testing, feedback, and sharing the optional [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure) community mod.
+
+---
+
 ## Legal / License
 
 Copyright (c) 2026 Damian Borkowski / AlphaStudioDE.
