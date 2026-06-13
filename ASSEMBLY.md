@@ -189,6 +189,8 @@ Servo notes:
 
 ### Fan
 
+Recommended fan: Noctua NF-A4x10 5 V PWM or a suitable 5 V PWM replacement.
+
 | Fan / driver signal | Connect to | Wire color |
 | --- | --- | --- |
 | PWM / control | ESP32-S3 `GPIO14` | Yellow |

@@ -6,6 +6,8 @@ The exact part numbers may change between prototype, pre-production, and product
 
 > Status: draft BOM overview for the stable 1.6.x firmware line.
 
+For wiring, GPIO mapping, and assembly order, see [ASSEMBLY.md](ASSEMBLY.md).
+
 ---
 
 ## Core Electronics
@@ -27,6 +29,7 @@ The exact part numbers may change between prototype, pre-production, and product
 | LED wiring / strip / PCB | 1 set | Must follow the configured physical LED order |
 | LED power wiring | 1 set | Size for expected LED current and voltage drop |
 | LED data wiring | 1 set | Connected to the firmware LED data pin |
+| SN74AHCT125N level shifter / buffer | 0-1 | Optional but recommended for 3.3 V to 5 V LED data buffering |
 
 Current firmware LED layout:
 
@@ -43,9 +46,8 @@ Mirror LED mode can be enabled in firmware for units wired in the previous direc
 
 | Item | Qty | Notes |
 | --- | ---: | --- |
-| I2S audio amplifier | 1 | Used for boot sound and status/event feedback |
-| Speaker, 4 ohm / 3 W / 1.25 mm connector | 1 | Match amplifier output and enclosure acoustics |
-| Audio wiring | 1 set | I2S signal, power, and speaker wiring |
+| Speaker, 4 ohm / 3 W / 1.25 mm connector | 1 | Connected to the onboard audio output of the ESP32-S3 display board |
+| Audio wiring | 1 set | Speaker wiring from the onboard audio output |
 
 Recommended SD root file:
 
@@ -61,7 +63,7 @@ SD card note:
 
 | Item | Qty | Notes |
 | --- | ---: | --- |
-| PWM fan | 1 | Controlled by firmware fan PWM output |
+| PWM fan | 1 | Recommended: Noctua NF-A4x10 5 V PWM or a suitable 5 V PWM replacement |
 | Servo | 1 | Drives the ventilation flap; exact model depends on the mechanical revision |
 | Ventilation flap mechanism | 1 | Mechanical assembly controlled by the servo |
 | Fan duct / airflow path | 1 | Depends on enclosure design |
@@ -177,8 +179,10 @@ Prices below are a snapshot for one unit of each listed line item and may change
 | Power supply | 5 V / 10 A | 1 | 11.99 EUR | [AliExpress item 1005004121728138](https://de.aliexpress.com/item/1005004121728138.html) |
 | Controller/display | JC3248W535 | 1 | 21.99 EUR | [AliExpress item 1005007566315926](https://de.aliexpress.com/item/1005007566315926.html) |
 | LEDs | SK6812 RGBNW, 1 m / 60 LEDs / IP20 | 1 | 5.29 EUR | [AliExpress item 1005005824057524](https://de.aliexpress.com/item/1005005824057524.html) |
+| LED data buffer | SN74AHCT125N DIP-14 buffer / level shifter, 10 pcs | 1 set | 2.89 EUR | [AliExpress item 1005010466137824](https://de.aliexpress.com/item/1005010466137824.html) |
 | Speaker | 4 ohm / 3 W / 1.25 mm connector | 1 | 1.69 EUR | [AliExpress item 1005008267900755](https://de.aliexpress.com/item/1005008267900755.html) |
 | Servo | Micro servo for ventilation flap control | 1 | 1.95 EUR | [AliExpress item 1005008315780030](https://de.aliexpress.com/item/1005008315780030.html) |
+| Fan | Noctua NF-A4x10 5 V PWM or suitable 5 V PWM replacement | 1 | ~20.00 EUR | [AliExpress item 1005005402810322](https://de.aliexpress.com/item/1005005402810322.html) |
 | Wire | 24 AWG to 28 AWG wire set | 1 set | 8.99 EUR | [AliExpress item 1005007670937847](https://de.aliexpress.com/item/1005007670937847.html) |
 | Power filtering | 1000 uF / 10 V capacitor | 1+ | 2.55 EUR | [AliExpress item 1005002075527957](https://de.aliexpress.com/item/1005002075527957.html) |
 | Optional protection | 10 A fuse / inline protection component | 1 | 2.05 EUR | [AliExpress item 1005009895179310](https://de.aliexpress.com/item/1005009895179310.html) |
@@ -187,9 +191,9 @@ Prices below are a snapshot for one unit of each listed line item and may change
 | FFC/FPC cable | 8P, same direction, 15-20 cm | 1 | 4.79 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 | FFC/FPC cable | 4P, same direction, 20-30 cm | 1 | 4.19 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 
-Estimated sourced-parts subtotal: 77.45 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
+Estimated sourced-parts subtotal with recommended fan: about 100.34 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
 
-Estimated subtotal without the optional 10 A fuse/protection component: 75.40 EUR.
+Estimated subtotal without the optional 10 A fuse/protection component, with recommended fan: about 98.29 EUR.
 
 Some items in this table, especially screws, wire, connectors, and generic small electronics, may already be available in a builder's workshop. In that case, the real build cost can be lower than the listed sourced-parts subtotal.
 
@@ -209,8 +213,7 @@ These products are not required for the firmware or the base hardware design. Th
 
 Before publishing a final public BOM, fill in:
 
-- exact audio amplifier model
-- exact fan model, voltage, and current
+- final fan choice if using a replacement instead of the recommended Noctua NF-A4x10 5 V PWM
 - final servo torque and mechanical throw under load
 - final 10 A fuse holder, wiring path, and enclosure mounting method
 - final connector types

@@ -11,7 +11,7 @@ The project has now moved out of beta. Development continues, but the system is 
 
 > Current firmware: **1.6.0**
 
-**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+**Quick links:** [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Assembly guide](ASSEMBLY.md) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
 
 ---
 
@@ -205,7 +205,7 @@ A typical coroNET OS 1 build includes:
 - ESP32-S3 touchscreen controller
 - 60 RGBW SK6812 LEDs
 - SD card for sound assets and activation files
-- I2S audio amplifier and speaker
+- onboard audio output and speaker
 - PWM-controlled fan
 - servo-driven ventilation flap
 - chamber temperature data from printer telemetry
@@ -214,6 +214,8 @@ A typical coroNET OS 1 build includes:
 Printable enclosure parts and print settings are available in [coroNET.3mf](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf).
 
 For a detailed and revision-specific bill of materials, see [BOM.md](BOM.md).
+
+For wiring, GPIO mapping, and assembly order, see [ASSEMBLY.md](ASSEMBLY.md).
 
 Current LED layout:
 
