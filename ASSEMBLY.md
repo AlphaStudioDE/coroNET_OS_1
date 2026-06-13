@@ -34,13 +34,13 @@ flowchart TD
     linkStyle 8 stroke:#1f77d0,stroke-width:3px
     linkStyle 9 stroke:#ffd21f,stroke-width:3px
     linkStyle 10 stroke:#8b5a2b,stroke-width:3px
-    linkStyle 2,12,13,14,15 stroke:#111111,stroke-width:4px,stroke-dasharray: 6 4
+    linkStyle 2,12,13,14,15 stroke:#ffffff,stroke-width:4px,stroke-dasharray: 6 4
 ```
 
 Diagram color legend:
 
 - red solid lines: `5V`
-- black dashed lines: `GND` / common ground
+- white dashed lines: `GND` / common ground
 - green line: LED data
 - blue line: audio / speaker output
 - yellow line: fan PWM/control
@@ -68,13 +68,13 @@ Important: LED numbers such as `42..59` describe physical LED indices, not ESP32
 | Connection | Wire From | Wire To | Wire color | Notes |
 | --- | --- | --- | --- | --- |
 | Main 5 V input | 5 V / 10 A power supply `+` | Power distribution `+5V` | Red | Use wire sized for LED and peripheral current |
-| Main ground | 5 V / 10 A power supply `-` | Power distribution `GND` | Black | All modules must share common ground |
+| Main ground | 5 V / 10 A power supply `-` | Power distribution `GND` | White | All modules must share common ground |
 | Optional fuse | Power supply `+` | Fuse input, then fuse output to distribution | Red | Optional 10 A protection; skipping it is at the builder's risk |
-| ESP32-S3 power | Power distribution `+5V/GND` | Controller power input | Red + black | Use the board's intended power input |
-| LED power | Power distribution `+5V/GND` | LED strip `5V/GND` | Red + black | Do not power the LED strip through thin controller traces |
-| Servo power | Power distribution `+5V/GND` | Servo `VCC/GND` | Red + black | Use external 5 V power, not a weak logic pin |
-| Fan power | Power distribution `+5V/GND` | Fan or fan driver | Red + black | Match the fan voltage and current rating |
-| Capacitor | LED `5V` and `GND` | Near LED power input | Red to `+`, black to `-` | 1000 uF / 10 V, observe polarity |
+| ESP32-S3 power | Power distribution `+5V/GND` | Controller power input | Red + white | Use the board's intended power input |
+| LED power | Power distribution `+5V/GND` | LED strip `5V/GND` | Red + white | Do not power the LED strip through thin controller traces |
+| Servo power | Power distribution `+5V/GND` | Servo `VCC/GND` | Red + white | Use external 5 V power, not a weak logic pin |
+| Fan power | Power distribution `+5V/GND` | Fan or fan driver | Red + white | Match the fan voltage and current rating |
+| Capacitor | LED `5V` and `GND` | Near LED power input | Red to `+`, white to `-` | 1000 uF / 10 V, observe polarity |
 
 Power safety notes:
 
@@ -112,7 +112,7 @@ Wiring:
 | LED pad | Connect to | Wire color |
 | --- | --- | --- |
 | `5V` | 5 V power distribution | Red |
-| `GND` | Common ground | Black |
+| `GND` | Common ground | White |
 | `DIN` | ESP32-S3 `GPIO15` | Green |
 
 LED input capacitor:
@@ -142,7 +142,7 @@ The audio output is already built into the ESP32-S3 display board used by this p
 | Speaker wire | Connect to | Wire color |
 | --- | --- | --- |
 | Speaker `+` | Board speaker output `+` | Blue |
-| Speaker `-` | Board speaker output `-` | Blue/black or black |
+| Speaker `-` | Board speaker output `-` | Blue/white or white |
 
 Do not connect the speaker directly to ESP32-S3 GPIO pins. Use the board speaker connector/output pads.
 
@@ -179,7 +179,7 @@ Root-level files:
 | --- | --- | --- |
 | Signal | ESP32-S3 `GPIO9` | Brown |
 | VCC | 5 V power distribution | Red |
-| GND | Common ground | Black |
+| GND | Common ground | White |
 
 Servo notes:
 
@@ -193,7 +193,7 @@ Servo notes:
 | --- | --- | --- |
 | PWM / control | ESP32-S3 `GPIO14` | Yellow |
 | VCC | Fan-rated power supply | Red |
-| GND | Common ground | Black |
+| GND | Common ground | White |
 
 Fan notes:
 
