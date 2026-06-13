@@ -130,6 +130,7 @@ Power notes:
 | Servo connector | 1 | Power, ground, signal |
 | Speaker connector | 1 | Optional but recommended for serviceability |
 | Power connector | 1 | Match current requirements |
+| Solderless DC connector set | 1 set | Optional male/female DC 5.5 x 2.1/2.5 mm connector set for cleaner power wiring |
 | DC barrel extension cable, 5.5 x 2.5 mm, male to female, 20 cm | 1 | Power input or service extension cable |
 | FFC/FPC cable, 8P, same direction, 15-20 cm | 1 | Display/controller connection, exact role to confirm |
 | FFC/FPC cable, 4P, same direction, 20-30 cm | 1 | Touch/peripheral connection, exact role to confirm |
@@ -175,12 +176,13 @@ Prices below are a snapshot for one unit of each listed line item and may change
 | Power filtering | 1000 uF / 10 V capacitor | 1+ | 2.55 EUR | [AliExpress item 1005002075527957](https://de.aliexpress.com/item/1005002075527957.html) |
 | Optional protection | 10 A fuse / inline protection component | 1 | 2.05 EUR | [AliExpress item 1005009895179310](https://de.aliexpress.com/item/1005009895179310.html) |
 | Hardware kit | M2.5 screw / spacer kit, 631 pieces | 1 set | 7.69 EUR | [AliExpress item 1005009682333826](https://de.aliexpress.com/item/1005009682333826.html) |
+| Power connector | Solderless DC 5.5 x 2.1/2.5 mm male/female connector set, 5 pairs | 1 set | 2.49 EUR | [AliExpress item 1005008713574522](https://de.aliexpress.com/item/1005008713574522.html) |
 | FFC/FPC cable | 8P, same direction, 15-20 cm | 1 | 4.79 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 | FFC/FPC cable | 4P, same direction, 20-30 cm | 1 | 4.19 EUR | [AliExpress item 1005004462513465](https://de.aliexpress.com/item/1005004462513465.html) |
 
-Estimated sourced-parts subtotal: 73.01 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
+Estimated sourced-parts subtotal: 75.50 EUR, excluding shipping and any optional/revision-dependent parts not listed in this table.
 
-Estimated subtotal without the optional 10 A fuse/protection component: 70.96 EUR.
+Estimated subtotal without the optional 10 A fuse/protection component: 73.45 EUR.
 
 Some items in this table, especially screws, wire, connectors, and generic small electronics, may already be available in a builder's workshop. In that case, the real build cost can be lower than the listed sourced-parts subtotal.
 
@@ -203,7 +205,7 @@ Before publishing a final public BOM, fill in:
 - exact audio amplifier model
 - exact fan model, voltage, and current
 - exact servo model and torque
-- final role of the 10 A power component
+- final 10 A fuse holder, wiring path, and enclosure mounting method
 - final connector types
 - final wire gauges per current path
 - enclosure revision
