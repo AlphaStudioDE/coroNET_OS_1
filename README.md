@@ -11,7 +11,13 @@ The project has now moved out of beta. Development continues, but the system is 
 
 > Current firmware: **1.6.0**
 
-**Quick links:** [Getting started](GETTING_STARTED.md) | [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Assembly guide](ASSEMBLY.md) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
+<p align="center">
+  <img src="docs/media/community-showcase/three-quarter-system.jpg" alt="Bobby Morgan's community-built coroNET installation" width="760">
+</p>
+
+> Community installation built and photographed by **Bobby Morgan**. Images published with permission.
+
+**Quick links:** [Getting started](GETTING_STARTED.md) | [Community showcase](docs/COMMUNITY_SHOWCASE.md) | [Latest release](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest) | [First-time flash files](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/Files%20to%20flash.zip) | [Printable parts](https://github.com/AlphaStudioDE/coroNET_OS_1/raw/main/coroNET.3mf) | [Assembly guide](ASSEMBLY.md) | [Flashing guide](FLASHING.md) | [Activation](#activation) | [Project status](#project-status) | [Features](#main-features) | [Hardware notes](#hardware-notes) | [Safety notes](#safety-notes)
 
 ---
 
@@ -68,6 +74,24 @@ Use this file as the base print project for the enclosure and related printed pa
 Optional community mod:
 
 [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure) by **@wlodeka** on Discord.
+
+---
+
+## Community Showcase: coroNET in the Wild
+
+coroNET is already living beyond the original prototype. Bobby Morgan's four-tool workshop build combines the coroNET touchscreen, RGBW status lighting, environmental monitoring, active ventilation, and extensive material handling in one deeply customized installation.
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/media/community-showcase/front-status-lighting.jpg" alt="Bobby Morgan's coroNET status lighting installation"></td>
+    <td width="33%"><img src="docs/media/community-showcase/controller-and-spoolbox.jpg" alt="coroNET touchscreen in Bobby Morgan's installation"></td>
+    <td width="33%"><img src="docs/media/community-showcase/four-tool-filament-system.jpg" alt="Four-tool filament system alongside coroNET"></td>
+  </tr>
+</table>
+
+Explore the full **[Community Showcase](docs/COMMUNITY_SHOWCASE.md)** for the complete installation, controls, lighting, airflow, and material system.
+
+The same physical coroNET device is also the target of [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2), a ground-up open-source firmware rewrite.
 
 ---
 
@@ -306,6 +330,8 @@ coroNET OS 1 can control LEDs, audio, fans, servo movement, ventilation behavior
 ## Credits
 
 Special thanks to **@wlodeka** on Discord for testing, feedback, and sharing the optional [Alternative Magnetic Enclosure](mods/alternative-magnetic-enclosure) community mod.
+
+Special thanks to **Bobby Morgan** for building and testing an extensive four-tool coroNET installation and for contributing the photographs featured in the [Community Showcase](docs/COMMUNITY_SHOWCASE.md).
 
 ---
 
