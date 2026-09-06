@@ -1,5 +1,14 @@
 # coroNET OS 1
 
+> **Please do not pay for a new coroNET OS 1 activation.** We recommend
+> [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2), a complete
+> ground-up firmware rewrite available to everyone free of charge under the
+> [MIT License](https://github.com/AlphaStudioDE/coroNET_OS_2/blob/main/LICENSE),
+> with no activation fees. Follow the OS 2 installation instructions when upgrading.
+>
+> Thank you to everyone who supported coroNET OS 1 through an activation payment
+> in the past. Your support helped make the next chapter possible.
+
 [![Firmware](https://img.shields.io/badge/firmware-1.6.0-blue)](https://github.com/AlphaStudioDE/coroNET_OS_1/releases/latest)
 ![Status](https://img.shields.io/badge/status-stable%20%2F%20out%20of%20beta-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-ESP32-orange)
@@ -45,14 +54,7 @@ Then follow the [flashing guide](FLASHING.md).
 
 coroNET OS 1 firmware requires a device-specific activation key.
 
-On first startup, the device shows its serial number on the activation screen. To receive an activation key, support the project with a **20 EUR** PayPal contribution:
-
-```text
-PayPal: damianborkowski88@gmail.com
-Payment note: your displayed device serial number
-```
-
-The activation file or activation code will be sent to the email address connected to the PayPal payment.
+New activation payments are discouraged; use the free MIT-licensed [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2) instead. The instructions below are for existing OS 1 activation-key holders. OS 1's activation mechanism and license have not changed.
 
 Activation can be completed in either of these ways:
 
@@ -352,3 +354,16 @@ Snapmaker and other product names may be trademarks of their respective owners. 
 Created by **Damian Borkowski / AlphaStudioDE**.
 
 Project status: **out of beta, stable product direction**
+
+## Support development
+
+If you find this project useful, you can support continued development, testing
+and documentation:
+
+- **Buy Me a Coffee:** [Support Damian's projects](https://buymeacoffee.com/damianborkh)
+- **PayPal:** `damianborkowski88@gmail.com` — enter this recipient email in PayPal.
+
+Contributions are voluntary support, not a purchase of an activation key or a
+license, and do not change this project's license or access conditions.
+Bug reports, feedback and sharing the project are also welcome.
+Thank you to everyone who supports these projects!

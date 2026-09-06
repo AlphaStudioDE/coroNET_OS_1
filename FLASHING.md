@@ -1,5 +1,14 @@
 # Flashing coroNET OS 1 With Espressif Flash Download Tool
 
+> **Please do not pay for a new coroNET OS 1 activation.** We recommend
+> [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2), a complete
+> ground-up firmware rewrite available to everyone free of charge under the
+> [MIT License](https://github.com/AlphaStudioDE/coroNET_OS_2/blob/main/LICENSE),
+> with no activation fees. Follow the OS 2 installation instructions when upgrading.
+>
+> Thank you to everyone who supported coroNET OS 1 through an activation payment
+> in the past. Your support helped make the next chapter possible.
+
 This guide explains how to flash coroNET OS 1 firmware to the ESP32-S3 controller using Espressif Flash Download Tool on Windows.
 
 Official Espressif references:
@@ -83,14 +92,7 @@ Recommended SD card size: use the included 500 MB card where possible. If it is 
 
 coroNET OS 1 requires a device-specific activation key.
 
-On first startup, the device shows its serial number on the activation screen. To receive an activation key, support the project with a **20 EUR** PayPal contribution:
-
-```text
-PayPal: damianborkowski88@gmail.com
-Payment note: your displayed device serial number
-```
-
-The activation file or activation code will be sent to the email address connected to the PayPal payment.
+New activation payments are discouraged; use the free MIT-licensed [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2) instead. The instructions below are for existing OS 1 activation-key holders. OS 1's activation mechanism and license have not changed.
 
 You can activate the device in either of these ways:
 

@@ -1,5 +1,14 @@
 # Getting Started With coroNET OS 1
 
+> **Please do not pay for a new coroNET OS 1 activation.** We recommend
+> [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2), a complete
+> ground-up firmware rewrite available to everyone free of charge under the
+> [MIT License](https://github.com/AlphaStudioDE/coroNET_OS_2/blob/main/LICENSE),
+> with no activation fees. Follow the OS 2 installation instructions when upgrading.
+>
+> Thank you to everyone who supported coroNET OS 1 through an activation payment
+> in the past. Your support helped make the next chapter possible.
+
 This guide is the short path for building, flashing, activating, and starting a coroNET OS 1 device for the first time.
 
 For detailed wiring, use [ASSEMBLY.md](ASSEMBLY.md). For the full bill of materials, use [BOM.md](BOM.md). For flashing details, use [FLASHING.md](FLASHING.md).
@@ -133,14 +142,7 @@ After flashing:
 
 coroNET OS 1 requires a device-specific activation key.
 
-On first startup, the activation screen shows the device serial number. To receive an activation key, support the project with a **20 EUR** PayPal contribution:
-
-```text
-PayPal: damianborkowski88@gmail.com
-Payment note: your displayed device serial number
-```
-
-The activation file or activation code will be sent to the email address connected to the PayPal payment.
+New activation payments are discouraged; use the free MIT-licensed [coroNET OS 2](https://github.com/AlphaStudioDE/coroNET_OS_2) instead. The instructions below are for existing OS 1 activation-key holders. OS 1's activation mechanism and license have not changed.
 
 Activate using one of these methods:
 
